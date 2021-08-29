@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.quote-container {
+  margin-bottom: 20px;
+}
+
+.quote {
+  padding: 30px;
+  background-color: lightblue;
+  font-size: 20px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.author {
+  font-style: italic;
+  float: right;
+}
+
+button {
+  padding: 10px;
+  background-color: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid lightgreen;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: lightgreen;
+  transition: 0.5s;
+}
